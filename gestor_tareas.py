@@ -140,7 +140,7 @@ def main():
 
     # 3.1. Bucle infinito para el menú interactivo
     while True:
-        print("\n Bienvenido al gestor de tareas. Las tareas disponibles son las siguientes:")  # Imprime el título del menú
+        print("\n Bienvenid@ al gestor de tareas. Las tareas disponibles son las siguientes:")  # Imprime el título del menú
         print("1. Agregar tarea")  # Opción para agregar una tarea
         print("2. Marcar tarea como completada")  # Opción para marcar una tarea como completada
         print("3. Mostrar todas las tareas")  # Opción para mostrar todas las tareas

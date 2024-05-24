@@ -184,6 +184,8 @@ def main():
                 # Elimina la tarea de la lista
                 lista_tareas.eliminar_tarea(indice_tarea)
             except ValueError:
+                # Llama a la función para iniciar la animación de carga
+                loading()
                 # Imprime un mensaje de error si la entrada no es un número válido
                 print("Error: Ingrese un número válido.") 
         
